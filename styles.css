@@ -1,0 +1,44 @@
+/* FontAwesome
+Roboto bold font-family: 'Roboto', sans-serif;
+roboto regular
+raleway light
+raleway black
+raleway thin
+raleway bold
+raleway regular
+raleway medium
+raleway semibold font-family: 'Raleway', sans-serif;
+opensans*/
+
+/*мобильные 428px*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+	}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+header{
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+    padding: 180px 0px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header_textblock{
+    background-color: black;
+    opacity: 36%;
+}
